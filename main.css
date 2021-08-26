@@ -1,0 +1,201 @@
+
+.main-brand{
+    height: 600px;
+    background-image: url("image/mavyaXtech.png");
+    background-position: top 30% left 50%;
+    background-size: 100%;
+}
+
+.main{
+    margin:0;
+    background-color: grey;
+}
+
+.skill-name{
+    background-color:rgba(0, 0, 0, 0.4);
+    position:absolute;
+    top:40%;
+    width: 100%;
+    /* border:2px red solid; */
+    color:white;
+    text-align: center;
+    font-weight: bold;
+}
+.skill-block-images{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.skills{
+    position: fixed;
+    margin:10px;
+    width: 15%;
+    background-color: white;
+    border: 2px white solid;
+    height: 20%;
+    display:inline-block;
+    text-align: center;
+    vertical-align: middle;
+    border-radius:20%;
+    bottom: 10px;
+    right:10px;
+}
+.skills:hover,
+.skills:active{
+    cursor: pointer;
+    border: 2px red solid
+}
+.web-app {
+    background-image: url('image/website-logo.png');
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position: center;
+    background-size: cover;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+}
+/* .desktop-app {
+    background-image: url('image/desktop-img.jpg');
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position: center;
+    background-size: contain;
+
+}
+.mobile-app {
+    background-image: url("image/app.jpg");
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position: center;
+    background-size: contain;
+}
+.mobile-app img{
+    border-radius: 20%;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+} */
+.quote-block {
+    min-height:60vh;
+    background-image: url('image/wood.jpg');
+    background-position: top 70% left 0;
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:2rem;
+}
+
+.quote-block__quote{
+    text-align: center;
+    font-size:4rem;
+    padding:3rem;
+    padding-bottom: 1.3rem;
+    font-family: 'Marck Script',cursive;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.quote-block__name{
+    font-size: 2rem;
+    padding:1rem;
+    text-align: right;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+.aboutUs-block{
+    margin: 0;
+    min-height:80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top 65% left 0;
+    margin-top: 0;
+    margin:0;
+    outline: none;
+    color:white;
+    padding: 50px;
+    background-image: url('image/MNC-in-India.jpg');
+}
+.aboutUs-block-box{
+    padding: 50px;
+}
+.aboutUs-block-box h1{
+    font-size: 3rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    width:30%;
+    padding:1rem;
+    margin-bottom: 1rem;
+}
+.aboutUs-block-box__content {
+    background-color:rgba(0, 0, 0, 0.6);
+    padding:1rem;
+    font-size: 2rem;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Marck Script',cursive;
+}
+.contactUs-block{
+    min-height:50vh;
+    padding: 40px;
+    background-size: cover;
+    background-image: url('image/contact us.jpg');
+    background-repeat: no-repeat;
+    background-position:top 10% left 0;
+    color:rgb(255, 253, 253);
+}
+
+.contactUs-block article{
+    background-color:rgba(0, 0, 0, 0.6);
+    padding:1rem;
+    width: 70%;
+}
+
+.contactUs-block h1{
+    font-size: 2rem;
+    margin: 4px;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.contactUs-block p{
+    font-size: 1.5rem;
+    margin:2px;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    height: 10vh;
+}
+/* footer{
+    background-color:#000000;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+}
+.copyright-block {
+    padding: 10px;
+    bottom: 0vh;
+    width: 100%;
+}
+.copyright-block_copyright{
+    color:rgb(66, 156, 230);
+    text-align: center;
+    font-weight: bold;
+} */
+
+.main-footer {
+    background: #000000;
+    margin: 0;
+    padding: 2rem;
+    padding-bottom: 1.3rem;
+}
+
+.main-footer__copyright {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: rgb(36, 165, 240);
+    font-weight: bold;
+    margin: 0;
+    margin-top: 1.3rem;
+    padding: 0;
+    font-size: 1.4rem;
+}

@@ -1,0 +1,164 @@
+.package {
+    margin: 1rem 0;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+.package:hover,
+.package:active {
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+    border-color: rgb(223, 1, 1);
+    /* border-color: rgb(223, 1, 1) !important; */
+}
+
+.package a {
+    text-decoration: none;
+    display: block;
+    color: inherit;
+    padding: 2.4rem;
+}
+
+.package a:focus {
+    outline: none;
+}
+
+.package-tittle {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding:1rem;
+}
+
+.package-subtitle {
+    color:white;
+    margin:0 auto;
+    background-color: rgba(37, 194, 233, 0.5);
+    padding: 1rem;
+}
+
+.package-description {
+    color: black;
+    background-color: rgba(211, 231, 235,0.6);
+    border-radius: 12px;
+    padding: 1.9rem;
+    font-size: 1.5rem;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.package-badge {
+    color: rgb(236, 230, 230);
+    background: red;
+    border-radius: 50px;
+    position: absolute;
+    right: 10px;
+    margin: 1.2rem;
+    top: 10px;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+#plus {
+    margin-top: 2rem;
+    background-image: url("../images/procreator-ux-design-studio-VzJjPuk53sk-unsplash.jpg");
+    
+}
+
+#free {
+    background-image: url("../images/jodyhongfilms-sI1mbxJFFpU-unsplash.jpg")
+}
+
+#premium {
+    background-image:url("../images/MNC-in-India.jpg")
+}
+
+#premium:hover,
+#premium:active {
+    border-color: rgb(223, 1, 1);
+}
+
+.package__features{
+    color: white;
+    font-size:1rem;
+    font-weight: bold;
+}
+.package__feature{
+    padding:1rem;
+}
+
+@media(min-width:40rem) {
+    .package {
+        margin: 2rem auto;
+        width: 90%;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+        max-width: 1500px;
+    }
+
+    .package-tittle {
+        color: white;
+        font-weight: bold;
+        font-size: 2rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 1rem;
+        width: 30%;
+        margin-left: 1.9rem;
+    }
+
+    .package-subtitle {
+        color: white;
+        margin: 0;
+        background-color: rgba(37, 194, 233, 0.5);
+        padding: 1rem;
+        width: 50%;
+    }
+
+    .package-description {
+        color: black;
+        background-color: rgba(211, 231, 235, 0.6);
+        border-radius: 12px;
+        padding: 1.9rem;
+        font-size: 1.3rem;
+        margin-top: 4rem;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+    }
+
+    .package-badge {
+        position: absolute;
+        right: 10px;
+        margin: 1.2rem;
+        top: 20px;
+        padding: 0.5rem;
+        font-size: 1rem;
+    }
+
+    #plus {
+        background-image: url("../images/1 eG2MFl0sGRKFmd_USgA_8Q.jpeg");
+        margin-top: 6rem;
+        background-repeat: no-repeat;
+        background-size: 100%;
+
+    }
+
+    #free {
+        background-image: url("../images/Students.png");
+        background-position: top 10% left 10%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    #premium {
+        background-image: url("../images/MNC-in-India.jpg")
+    }
+
+    .package__features {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+}

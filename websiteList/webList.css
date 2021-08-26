@@ -1,0 +1,27 @@
+body{
+    background-color:rgb(204, 199, 199);
+}
+.websiteList {
+    margin-top:100px;
+    margin-bottom:100px;
+    background-color:rgb(204, 199, 199);
+}
+
+.website_link{
+    display:block;
+    height: 500px;
+    background-image: url("../image/mavyaxsmall.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 20% left 45%;
+    width: 80%;
+    margin: auto;
+    max-width: 780px;
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.3);
+}
+.website_link:hover,
+.website_link:active {
+    border: 2px sloid red;
+    width: 90%;
+    max-width: 980px;
+}

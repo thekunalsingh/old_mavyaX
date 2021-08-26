@@ -1,0 +1,128 @@
+main {
+    padding-top: 4rem;
+}
+
+.signup-title {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(38, 148, 211);
+}
+
+.signup-form {
+    width: 80%;
+    margin: auto;
+    background-color: rgb(146, 197, 255);
+    padding: 2rem;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    margin: 4rem auto;
+}
+
+.signup-form label,
+.signup-form input:not([type="checkbox"]),
+.signup-form select {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.signup-form label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+
+/* .signup-form input[type="checkbox"]*/
+
+.signup-form input[id*="terms"],
+.signup-form input[type="checkbox"]+label {
+    display: inline-block;
+    width: auto;
+    vertical-align: bottom;
+}
+
+.signup-form input:not([type="checkbox"]),
+.signup-form select {
+    border: 1px solid grey;
+    padding: 0.2rem;
+    font: inherit;
+}
+
+.signup-form input:focus,
+.signup-form select:focus {
+    outline: none;
+    background-color: rgb(146, 226, 247);
+}
+
+.signup-form input[type="checkbox"] {
+    border: 1px solid grey;
+    background: white;
+    width: 1rem;
+    height: 1rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.signup-form input[type="checkbox"]:checked {
+    background: rgb(0, 38, 255);
+    border: 1px solid white;
+}
+
+
+/* .signup-form input.invalid,
+.signup-form select.invalid, */
+
+.signup-form :invalid {
+    border: 1px solid red !important;
+    background-color: rgb(226, 113, 113);
+}
+
+.contact__email {
+    margin: 2rem auto;
+    width: 80%;
+    background-color: rgb(223, 59, 59);
+    padding: 1rem;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.contact__email--heading {
+    text-align: center;
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.contact__email--Eid {
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.signup-form button[type="submit"] {
+    display: block;
+    margin: 1rem auto;
+}
+
+@media (min-width:40rem) {
+    .signup-form {
+        width: 60%;
+    }
+    .signup-title {
+        font-size: 3rem;
+    }
+    .contact__email {
+        width: 50%;
+    }
+    .contact__email--heading {
+        font-size: 2.5rem;
+    }
+    .contact__email--Eid {
+        font-size: 1.5rem;
+    }
+}
